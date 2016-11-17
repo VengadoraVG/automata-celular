@@ -1,0 +1,20 @@
+using UnityEngine;
+using System.Collections;
+
+public class Cell : MonoBehaviour {
+    public List<string> Requirements;
+    public List<string> Productions;
+    public int Life;
+    public int x;
+    public int y;
+
+    public Controller Matrix;
+
+    void Start () {
+        
+    }
+    
+    void Update () {
+	
+    }
+}
